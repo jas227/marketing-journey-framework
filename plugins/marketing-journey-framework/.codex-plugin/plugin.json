@@ -1,0 +1,37 @@
+{
+  "name": "marketing-journey-framework",
+  "version": "1.0.0",
+  "description": "Explore and visualize marketing strategy through 18 connected atomic units and customer journeys.",
+  "author": {
+    "name": "Marketing Journey Framework",
+    "url": "https://github.com/jas227/marketing-journey-framework"
+  },
+  "homepage": "https://github.com/jas227/marketing-journey-framework",
+  "repository": "https://github.com/jas227/marketing-journey-framework",
+  "keywords": [
+    "marketing",
+    "strategy",
+    "customer-journey",
+    "positioning"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Marketing Journey Framework",
+    "shortDescription": "Map marketing strategy across 18 connected units.",
+    "longDescription": "Research a company or business idea, explore possibilities across the 18 Atomic Units of Marketing, test their coherence, and create three customer marketing journeys through an interactive strategy map.",
+    "developerName": "Marketing Journey Framework",
+    "category": "Productivity",
+    "websiteURL": "https://github.com/jas227/marketing-journey-framework",
+    "capabilities": [
+      "Research",
+      "Strategy analysis",
+      "Interactive visualization"
+    ],
+    "defaultPrompt": [
+      "Create a Marketing Journey Map for a company.",
+      "Map my business idea across the 18 Atomic Units.",
+      "Audit my marketing strategy and identify weak hypotheses."
+    ],
+    "brandColor": "#3B82F6"
+  }
+}
