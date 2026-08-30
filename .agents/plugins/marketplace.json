@@ -1,0 +1,20 @@
+{
+  "name": "marketing-journey-framework",
+  "interface": {
+    "displayName": "Marketing Journey Framework"
+  },
+  "plugins": [
+    {
+      "name": "marketing-journey-framework",
+      "source": {
+        "source": "local",
+        "path": "./plugins/marketing-journey-framework"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
