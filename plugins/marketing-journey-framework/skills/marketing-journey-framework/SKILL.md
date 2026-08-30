@@ -158,7 +158,11 @@ Keep each story compact. After each story, retain an explicit or machine-readabl
 
 ## Visualize journeys through the possibility map
 
-When delivering an interactive company map:
+For every interactive company map or Customer Marketing Journey visualization, use the canonical visual system in [references/visual-language.md](references/visual-language.md). Read that reference before generating the visualization. Treat it as a required rendering contract: company research and option content change, while the map's visual language, hierarchy, color sequence, controls, and interaction model remain consistent.
+
+Do not substitute a network graph, force-directed canvas, relationship-line diagram, vertical dashboard, table-first layout, or company-branded redesign unless the user explicitly requests a different visualization. The default must look and behave like the canonical six-column Marketing Journey Map.
+
+When delivering the map:
 
 1. Show the complete map first in an unhighlighted **All Possibilities** state.
 2. Add controls for **Journey 1**, **Journey 2**, **Journey 3**, and **All Possibilities**.
@@ -168,6 +172,8 @@ When delivering an interactive company map:
 6. Do not use a permanent selected-item summary pill above the journeys.
 7. Prevent text and columns from overlapping. Preserve the conceptual flow with horizontal scrolling at narrow widths when necessary.
 8. Do not preselect a journey on initial load.
+9. Keep the canonical neutral visual language: white canvas, restrained dark typography, muted secondary copy, light-gray rounded atomic-unit cards, six slim group-color bars, short matching color rules beside each possibility, and rounded journey controls.
+10. Keep the title, orientation line, journey controls, optional journey story panel, supergroup headers, and six-column map in that exact vertical order.
 
 Use journey records containing `title`, `story`, and `touches`. Validate that every referenced option ID exists before presenting the map.
 
