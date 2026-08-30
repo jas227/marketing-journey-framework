@@ -37,7 +37,7 @@ codex plugin add marketing-journey-framework@marketing-journey-framework
 - Research and evidence standards
 - Explore, Configure, Audit, Validate, and Compare modes
 - Three Customer Marketing Journeys for company applications
-- Instructions for interactive left-to-right journey maps
+- A canonical interactive left-to-right journey-map visual system, used consistently across companies
 - A copy-and-paste prompt in `COPY-PASTE-PROMPT.md` for use when plugin installation is unavailable
 
 The plugin contains instructions and templates only. It does not include a backend, external account access, saved boards, or previously generated company maps.
